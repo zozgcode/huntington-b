@@ -1,0 +1,360 @@
+.dashboard {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .dashboard {
+    background-color: #ffffff;
+    height: 100%;
+    display: block;
+    padding-bottom: 150px;
+  }
+  .dashboard_header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    /* border-bottom: 4px solid #ffffff; */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-bottom: 30px; */
+  }
+  .dashboard_header img {
+    width: 200px;
+  }
+  .dashboard_details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logout_btn {
+    padding: 18px;
+    /* padding-top: 21px; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #394048;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+    width: 90px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .logout_btn {
+      width: 70px;
+      height: 50px;
+    }
+  }
+  .main-account-balance {
+    /* min-height: 500px; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .account_text {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-bottom: 10px; */
+    text-transform: capitalize;
+  }
+  .account_text h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  @media screen and (max-width: 500px) {
+    .account_text h2 {
+      font-size: 18px;
+    }
+  }
+
+  .account-details {
+    /* margin-top: 20px; */
+    padding: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border-radius: 15px; */
+    background-color: #f8f8f8;
+    /* box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); */
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  @media screen and (max-width: 500px) {
+    .account-details {
+      min-height: max-content;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+
+  .account-details h2 {
+    font-size: 20px;
+    color: rgb(65, 63, 63);
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 500px) {
+    .account-details h2 {
+      font-size: 18px;
+    }
+  }
+
+  .account-details .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .account-details .price {
+      font-size: 25px;
+    }
+  }
+
+  .savingBox{
+    border-top: 1px solid rgb(214, 214, 214);
+    margin-top: 10px;
+    width: 100%;
+  }
+  .saving_account_name {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 15px;
+  }
+
+  .account-details .price.saving_account_price {
+    font-size: 23px;
+    margin: 0;
+    /* margin-top: 20px; */
+  }
+
+  .saving_account {
+    font-size: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .transaction-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .transaction-history-header p:nth-child(1) {
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+  }
+  .transaction-history-header-right {
+    display: flex;
+    gap: 10px;
+  }
+  .transaction-history-header-right p:nth-child(1) {
+    color: #1cbd19;
+  }
+  .transaction-history-header-right p:nth-child(2) {
+    color: #a11c1c;
+    font-weight: bold;
+  }
+  .account-balance {
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #394048;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  .transaction {
+    /* margin-top: 20px; */
+    font-weight: 500;
+  }
+  .transaction_box {
+    /* border-bottom: 1px solid #43697E; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(73, 73, 73);
+  }
+  .transaction_boxxx {
+    background-color: #43697e3d;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .transaction_box-top,
+  .transaction_box-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .transaction_box-bottom {
+    margin-top: 5px;
+  }
+  .transaction_box-bottom div {
+    display: flex;
+    flex-direction: column;
+  }
+  ._desc {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .green {
+    color: #1cbd19;
+    font-weight: bold;
+  }
+  ._desc p {
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .transaction-o {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    margin-top: 20px;
+    min-height: 80px;
+  }
+  .credit_card {
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .credit_card span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #dfbab9;
+    position: relative;
+    top: -40px;
+    left: -65px;
+    font-size: 8px;
+  }
+  .credit_card img {
+    height: 150px;
+  }
+  .account-footer {
+    min-height: 30px;
+    /* padding: 15px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    /* padding-left: 15px; */
+    /* padding: 15px; */
+    /* left: 0; */
+    /* right: 0; */
+    background-color: #394048;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  .account-footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    width: max-content;
+    padding: 10px;
+    min-height: 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  @media screen and (max-width: 500px) {
+    .account-footer div {
+      font-size: 14px;
+    }
+  }
+  .account-footer div:hover {
+    background-color: #dbdbdb;
+  }
+  .account-footer div svg {
+    fill: #fff;
+  }
+  .account-footer a:hover {
+    text-decoration: none;
+  }
+
+  .modal_form {
+    margin-bottom: 20px;
+  }
+
+  .modal_form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .modal_form div input {
+    max-width: 300px;
+    padding: 1rem;
+    border: 1px solid #394048;
+    margin-top: 10px;
+  }
+
+  .modal_form div label {
+    font-size: 1.2rem;
+    color: #394048;
+    display: block;
+  }
+
+  .modal_form div button {
+    max-width: 100px;
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    background: #394048;
+    padding: 10px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+
+  .modal_form div button:hover {
+    background-color: transparent;
+    border: 1px solid #394048;
+    color: #394048;
+  }
+  /* @media (max-width: 450px) {
+    .account-details h2 {
+      font-size: 12px;
+    }
+    .account-details .price {
+      font-size: 25px;
+    }
+  } */
+}

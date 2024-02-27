@@ -1,0 +1,66 @@
+
+export const DavidTaborTxData = [
+  {
+    txName: "Becu #393223493",
+    whatUsed: "Credit",
+    debit: "+$690,000.00",
+    date: "Dec 04, 2021",
+    color: "green",
+  },
+  {
+    txName: "Andrew Goldberg",
+    whatUsed: "Credit",
+    debit: "+$2,000,000.00",
+    date: "Oct 25, 2000",
+    color: "green",
+  },
+  {
+    txName: "President of pch",
+    whatUsed: "Credit",
+    debit: "+$500,000.00",
+    date: "Aug 20, 2000",
+    color: "green",
+  },
+  {
+    txName: "Etfashion",
+    whatUsed: "Debit",
+    debit: "-$200,000.00",
+    date: "Sept 10, 1995",
+    color: "red",
+  },
+  {
+    txName: "Gebbers Farms",
+    whatUsed: "Credit",
+    debit: "+$500,000.00",
+    date: "May 01, 1995",
+    color: "green",
+  },
+  {
+    txName: "Busch Agricultural Resources",
+    whatUsed: "Credit",
+    debit: "+$50,000.00",
+    date: "Nov 18, 1990",
+    color: "green",
+  },
+  {
+    txName: "Farm.One",
+    whatUsed: "Credit",
+    debit: "+$85,000.00",
+    date: "Aug 09, 1990",
+    color: "green",
+  },
+  {
+    txName: "IJH FARM",
+    whatUsed: "Debit",
+    debit: "-$150,000.00",
+    date: "April 7, 1990",
+    color: "red",
+  },
+  {
+    txName: "Brunt Workwear",
+    whatUsed: "credit",
+    debit: "+$92,280.00",
+    date: "Jan 3, 1990",
+    color: "green",
+  },
+];

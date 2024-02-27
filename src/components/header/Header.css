@@ -1,0 +1,24 @@
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header .Logo{
+  width: 200px;
+}
+.hamburger {
+  position: relative;
+  top: -4px;
+  display: none;
+}
+.hamburger div {
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+  margin: 5px;
+}
